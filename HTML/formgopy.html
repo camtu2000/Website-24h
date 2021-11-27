@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Góp ý</title>
+	<style type="text/css">
+		
+		*{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		div.form-gopy{
+			width: 500px;
+			margin: 0 auto;
+			border: 2px solid #78b43d;
+		}
+
+		div.title{
+			background: #78b43d;
+			padding: 8px 0;
+			text-transform: uppercase;
+			color: #fff;
+			font-weight: 600;
+			font-size: 17px;
+			text-align: center;
+		}
+
+		div.table-gopy{
+			display: inline-block;
+			width: 100%;
+			padding: 6px 4px;
+		}
+
+
+		ul.label p{
+			display: inline-block;
+			text-align: right;
+			font-weight: bold;
+			font-size: 13px;
+		}
+
+		ul.label input,
+		ul.label textarea{
+			margin: 4px 28px;
+		}
+
+		div.btn ul{
+			display: flex;
+			width: 100%;
+		}
+
+		div.btn input.btn-gui{
+			width: 60px;
+			height: 30px;
+			border-radius: 3px;
+			background: #78b43d;
+			color: #fff;
+			margin-left: 150px;
+		}
+
+		div.btn button.btn-thoat{
+			width: 90px;
+			height: 30px;
+			border-radius: 3px;
+			background: #787b83;
+			color: #fff;
+			margin-top: 5px;
+		}
+
+		div.duongke{
+			border-top: 1px dashed #e5e5e5;
+		    display: block;
+		    margin: 10px 0 0;
+		    padding: 5px 0 0;
+		}
+
+		div.footer{
+			background: #e6e6e6;
+    		padding: 10px;
+    		font-size: 13px;
+		}
+</style>
+</head>
+<body>
+	<form action="#">
+		<div class="form-gopy">
+			<div class="title">góp ý - liên hệ với 24h</div>
+			<div class="table-gopy">
+				<ul class="label">
+					<li>
+						<p>Họ và tên</p>
+						<input type="text" size="20"/>
+					</li>
+					<li>
+						<p>Địa chỉ email</p>
+						<input type="text" size="20"/>
+					</li>
+					<li>
+						<p>Số điện thoại</p>
+						<input type="text" size="20"/>
+					</li>
+					<li>
+						<p>Địa chỉ nơi cư trú</p>
+						<input type="text" size="40"/>
+					</li>
+					<li>
+						<p>Tiêu đề</p>
+						<input type="text" size="40" value="Góp ý 24H"/>
+					</li>
+					<li>
+						<p>Nội dung</p>
+						<textarea style="width: 300px; height: 150px;"></textarea>
+					</li>
+					<div class="btn">
+						<ul>
+							<li>
+								<input type="submit" value="GỬI" class="btn-gui">
+							</li>
+							<li>
+								<button type="button" class="btn-thoat">THOÁT</button>
+							</li>
+						</ul>
+					</div>
+				</ul>
+			</div>
+			<div class="duongke"></div>
+			<div class="footer">
+				<i>(Sử dụng mã Telex để gõ tiếng Việt Unicode)</i>
+			</div>
+		</div>
+	</form>
+</body>
+</html> 
